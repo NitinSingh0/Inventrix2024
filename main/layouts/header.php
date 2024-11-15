@@ -9,10 +9,10 @@
          <!-- Navbar (Hidden on small screens) -->
          <nav class="hidden md:flex space-x-8">
              <a href="../../index.php" class="nav-link">Home</a>
-             <a href="main/pages/about.php" class="nav-link">About</a>
-             <a href="main/pages/event.php" class="nav-link">Events</a>
-             <a href="main/pages/gallery.php" class="nav-link">Gallery</a>
-             <a href="main/pages/contact.php" class="nav-link">Contact Us</a>
+             <a href="/Inventrix2024/main/pages/about.php" class="nav-link">About</a>
+             <a href="/Inventrix2024/main/pages/event.php" class="nav-link">Events</a>
+             <a href="/Inventrix2024/main/pages/gallery.php" class="nav-link">Gallery</a>
+             <a href="/Inventrix2024/main/pages/contact.php" class="nav-link">Contact Us</a>
          </nav>
 
          <!-- Mobile Menu Button -->
@@ -28,10 +28,10 @@
      <!-- Mobile Dropdown Menu -->
      <div id="menu" class="hidden md:hidden bg-gradient-to-r from-purple-900 to-black space-y-2 py-4 px-6 text-center">
          <a href="../../index.php" class="nav-link block">Home</a>
-         <a href="main/pages/about.php" class="nav-link block">About</a>
-         <a href="main/pages/event.php" class="nav-link block">Events</a>
-         <a href="main/pages/gallery.php" class="nav-link block">Gallery</a>
-         <a href="main/pages/contact.php" class="nav-link block">Contact Us</a>
+         <a href="/Inventrix2024/main/pages/about.php" class="nav-link block">About</a>
+         <a href="/Inventrix2024/main/pages/event.php" class="nav-link block">Events</a>
+         <a href="/Inventrix2024/main/pages/gallery.php" class="nav-link block">Gallery</a>
+         <a href="/Inventrix2024/main/pages/contact.php" class="nav-link block">Contact Us</a>
      </div>
  </header>
  <!-- Script -->
