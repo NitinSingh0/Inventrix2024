@@ -7,7 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 
 
 // Function to send OTP via email (replace with your email sending code)
-function sendOTPByEmail($email,$name,$whatsapp,$event) {
+function sendConfirmationByEmail($email,$name,$whatsapp,$event) {
     require ('PHPMailer.php');
     require ('Exception.php');
     require ('SMTP.php');
@@ -127,6 +127,6 @@ if ($result) {
   $whatsapp = $row['whatsapp'];
 }
 
-sendOTPByEmail($email,$name,$whatsapp,$event);
+sendConfirmationByEmail($email,$name,$whatsapp,$event);
 error_reporting(0);
 ?>
