@@ -39,21 +39,21 @@
                     <div class="bg-gradient-to-b from-purple-600 to-blue-500 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
                         <h3 class="text-2xl font-bold text-white">Day 1: Gaming Frenzy</h3>
                         <p class="mt-2 text-gray-200">Step into the world of competitive gaming with adrenaline-pumping challenges that will test your skills and teamwork.</p>
-                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg shadow-md hover:bg-purple-800 transition duration-300">View Events</a>
+                        <a href="/Inventrix2024/main/pages/event.php" class="mt-4 inline-block px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg shadow-md hover:bg-purple-800 transition duration-300">View Events</a>
                     </div>
 
                     <!-- Day 2 -->
                     <div class="bg-gradient-to-b from-blue-500 to-pink-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
                         <h3 class="text-2xl font-bold text-white">Day 2: The Ultimate Challenge</h3>
                         <p class="mt-2 text-gray-200">Compete in mind-bending puzzles and challenges, combining strategy, wit, and creativity to claim victory.</p>
-                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow-md hover:bg-blue-800 transition duration-300">View Events</a>
+                        <a href="/Inventrix2024/main/pages/event.php" class="mt-4 inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow-md hover:bg-blue-800 transition duration-300">View Events</a>
                     </div>
 
                     <!-- Day 3 -->
                     <div class="bg-gradient-to-b from-pink-600 to-purple-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
                         <h3 class="text-2xl font-bold text-white">Day 3: Innovate & Create</h3>
                         <p class="mt-2 text-gray-200">Unleash your creativity and innovation through poster-making and presentation challenges, showcasing your ideas to the world.</p>
-                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-pink-700 text-white font-semibold rounded-lg shadow-md hover:bg-pink-800 transition duration-300">View Events</a>
+                        <a href="/Inventrix2024/main/pages/event.php" class="mt-4 inline-block px-6 py-2 bg-pink-700 text-white font-semibold rounded-lg shadow-md hover:bg-pink-800 transition duration-300">View Events</a>
                     </div>
 
                 </div>
@@ -77,7 +77,7 @@
             <div class="container mx-auto">
                 <h2 class="text-4xl font-bold text-white">Join the Celebration</h2>
                 <p class="mt-4 text-lg text-gray-300">Register now and be a part of Inventrix's Innov-Astra 2024.</p>
-                <a href="register.php" class="mt-6 inline-block px-8 py-4 bg-purple-600 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 transition duration-300">
+                <a href="/Inventrix2024/main/pages/event.php" class="mt-6 inline-block px-8 py-4 bg-purple-600 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 transition duration-300">
                     Register Now
                 </a>
             </div>

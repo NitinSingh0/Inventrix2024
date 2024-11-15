@@ -47,17 +47,19 @@
                 <?php
                 $events = [
                     "Day 1: Galaxy Games" => [
-                        ['id' => 'scribble', 'name' => 'Scribble', 'short' => 'Test your drawing and guessing skills!', 'details' => 'Detailed rules and info about Scribble.', 'register' => 'scribble.php'],
-                        ['id' => 'typing', 'name' => 'Typing Speed Test', 'short' => 'Show off your typing speed!', 'details' => 'Detailed rules and info about Typing.', 'register' => 'typing.php'],
-                        ['id' => 'fifa', 'name' => 'FIFA Tournament', 'short' => 'Show your football skills!', 'details' => 'Detailed rules and info about FIFA.', 'register' => 'fifa.php'],
+                        ['id' => 'scribble', 'name' => 'Scribble', 'short' => 'Test your drawing and guessing skills!', 'details' => 'Detailed rules and info about Scribble.', 'register' => 'scribble_registration.php'],
+                        ['id' => 'blackbox', 'name' => 'Blackbox', 'short' => 'Show off your coding skill!', 'details' => 'Detailed rules and info about Blackbox.', 'register' => 'blackbox_registration.php'],
+                        ['id' => 'click', 'name' => 'Click-Click', 'short' => 'Show your searching skills!', 'details' => 'Detailed rules and info about Click Click.', 'register' => 'click_registration.php'],
+                        ['id' => 'fifa', 'name' => 'FIFA Tournament', 'short' => 'Show your football skills!', 'details' => 'Detailed rules and info about FIFA.', 'register' => 'fifa_registration.php'],
+                        ['id' => 'bgmi', 'name' => 'BGMI', 'short' => 'Battle Royale Fun!', 'details' => 'Detailed rules and info about BGMI.', 'register' => 'bgmi_registration.php']
                     ],
                     "Day 2: Adventurous Spirit" => [
-                        ['id' => 'stumble', 'name' => 'Stumble Guys', 'short' => 'A fun obstacle course!', 'details' => 'Detailed rules and info about Stumble Guys.', 'register' => 'stumble.php'],
-                        ['id' => 'bgmi', 'name' => 'BGMI', 'short' => 'Battle Royale Fun!', 'details' => 'Detailed rules and info about BGMI.', 'register' => 'bgmi.php']
+                        ['id' => 'stumble', 'name' => 'Stumble Guys', 'short' => 'A fun obstacle course!', 'details' => 'Detailed rules and info about Stumble Guys.', 'register' => 'stumble_registration.php'],
+                        ['id' => 'tresurehunt', 'name' => 'Tresurehunt', 'short' => 'Hunting Tresure!', 'details' => 'Detailed rules and info about Tresure hunt.', 'register' => 'tresurehunt_registration.php']
                     ],
                     "Day 3: Creative Finale" => [
-                        ['id' => 'poster', 'name' => 'Poster Making', 'short' => 'Show your creativity!', 'details' => 'Detailed rules and info about Poster Making.', 'register' => 'poster.php'],
-                        ['id' => 'presentation', 'name' => 'Presentation Making', 'short' => 'Impress with your ideas!', 'details' => 'Detailed rules and info about Presentation Making.', 'register' => 'presentation.php']
+                        ['id' => 'poster', 'name' => 'Poster Making', 'short' => 'Show your creativity!', 'details' => 'Detailed rules and info about Poster Making.', 'register' => 'poster_registration.php'],
+                        ['id' => 'presentation', 'name' => 'Presentation Making', 'short' => 'Impress with your ideas!', 'details' => 'Detailed rules and info about Presentation Making.', 'register' => 'presentation_registration.php']
                     ]
                 ];
 
