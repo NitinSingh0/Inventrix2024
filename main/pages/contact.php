@@ -36,21 +36,22 @@
                     <!-- Contact Info -->
                     <div class="flex flex-col items-center">
                         <h3 class="text-2xl font-bold text-purple-400 mb-4">Contact Details</h3>
-                        <p class="text-lg text-gray-300"><strong>Email:</strong> inventrix@college.edu</p>
-                        <p class="text-lg text-gray-300"><strong>Phone:</strong> +91 98765 43210</p>
-                        <p class="text-lg text-gray-300"><strong>Address:</strong> Tech Institute, Main Campus, City, Country</p>
-                        <p class="text-lg text-gray-300"><strong>Hours:</strong> 9:00 AM - 5:00 PM, Mon to Fri</p>
+                        <p class="text-lg text-gray-300"><strong>Email:</strong> <a href="mailto:itinventrix@gmail.com" class="text-purple-300 hover:underline">itinventrix@gmail.com</a></p>
+                        <p class="text-lg text-gray-300"><strong>Phone:</strong> +91 9005485XXX</p>
+                        <p class="text-lg text-gray-300"><strong>Address:</strong> Mithaghar Rd jaihind Colony,Mulund East,Mumbai Maharashtra 400081</p>
+                        <p class="text-lg text-gray-300"><strong>Hours:</strong> 9:00 AM - 5:00 PM, Mon to Sat</p>
+                        <!-- Instagram Handle -->
+                        <p class="mt-4 text-lg text-gray-300"><strong>Follow us on Instagram:</strong> <a href="https://www.instagram.com/inventrix.makeithappen/" target="_blank" class="text-purple-300 hover:underline">@inventrix.makeithappen</a></p>
                     </div>
 
                     <!-- Map -->
                     <div class="flex items-center justify-center">
-                        <iframe class="rounded-lg shadow-lg w-full h-64"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.3721893448245!2d-122.08383908468159!3d37.42206597982186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5a6d54916ff%3A0x9f36f67213b3d307!2sGoogleplex!5e0!3m2!1sen!2sin!4v1684857426303!5m2!1sen!2sin"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="rounded-lg shadow-lg w-full h-64" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7339743855637!2d72.95463080849338!3d19.16311864916146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f2a2463a0b%3A0xf8c25abb49834fe2!2sV.G.%20Vaze%20College%20of%20Arts%2C%20Science%20and%20Commerce%20(Autonomous)!5e0!3m2!1sen!2sin!4v1731671735157!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Contact Form Section -->
         <section class="py-20 px-6 bg-black">

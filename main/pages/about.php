@@ -41,7 +41,7 @@
             <div class="container mx-auto">
                 <h2 class="text-4xl font-bold text-center text-white">About the IT Department</h2>
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <img src="images/it-department.jpg" alt="IT Department" class="rounded-lg shadow-lg animate-fade-in">
+                    <img src="../assets/it.jpeg" alt="IT Department" class="rounded-lg shadow-lg animate-fade-in">
                     <div class="flex flex-col justify-center">
                         <p class="text-lg text-gray-300">
                             The IT Department is the backbone of our institution, empowering students with the latest technological skills and insights.

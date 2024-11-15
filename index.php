@@ -16,14 +16,14 @@
     <!-- Hero Section -->
     <main class="mt-20">
         <section class="relative text-center py-32">
-            <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('images/galaxy-theme.jpg');"></div>
+            <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('main/assets/galaxy-theme.jpeg');"></div>
             <div class="relative z-10">
                 <h1 class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-blue-400 animate-pulse">
-                    Welcome to Inventrix
+                    Welcome to Inventrix - Innov-Astra
                 </h1>
-                <p class="mt-4 text-2xl text-gray-300 animate-fade-in">Make it happen</p>
+                <p class="mt-4 text-2xl text-gray-300 animate-fade-in">Make it happen - A Celebration of Innovation and Creativity</p>
                 <div class="mt-8">
-                    <img src="images/innov-astra.jpg" alt="Innov-Astra Theme" class="mx-auto rounded-lg shadow-lg w-3/4 md:w-1/2 lg:w-1/3 animate-fade-in-down">
+                    <img src="main/assets/it.jpeg" alt="Innov-Astra Theme" class="mx-auto rounded-lg shadow-lg w-3/4 md:w-1/2 lg:w-1/3 animate-fade-in-down">
                 </div>
             </div>
         </section>
@@ -32,26 +32,36 @@
         <section class="py-20 bg-gradient-to-r from-purple-800 via-black to-purple-800">
             <div class="container mx-auto text-center">
                 <h2 class="text-4xl font-bold text-white">Event Schedule</h2>
-                <p class="mt-4 text-lg text-gray-300">Join us for three days of fun, innovation, and tradition.</p>
+                <p class="mt-4 text-lg text-gray-300">Join us for three days of creativity, adventure, and innovation at Innov-Astra 2024!</p>
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+
                     <!-- Day 1 -->
-                    <div class="bg-gradient-to-b from-purple-600 to-blue-500 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-2xl font-bold">Day 1: Games</h3>
-                        <p class="mt-2 text-gray-200">🎮 Exciting games to kickstart the event and energize participants.</p>
+                    <div class="bg-gradient-to-b from-purple-600 to-blue-500 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
+                        <h3 class="text-2xl font-bold text-white">Day 1: Gaming Frenzy</h3>
+                        <p class="mt-2 text-gray-200">Step into the world of competitive gaming with adrenaline-pumping challenges that will test your skills and teamwork.</p>
+                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg shadow-md hover:bg-purple-800 transition duration-300">View Events</a>
                     </div>
+
                     <!-- Day 2 -->
-                    <div class="bg-gradient-to-b from-blue-500 to-pink-600 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-2xl font-bold">Day 2: Games & Treasure Hunt</h3>
-                        <p class="mt-2 text-gray-200">🕵️‍♂️ Unleash your inner detective and compete in thrilling games.</p>
+                    <div class="bg-gradient-to-b from-blue-500 to-pink-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
+                        <h3 class="text-2xl font-bold text-white">Day 2: The Ultimate Challenge</h3>
+                        <p class="mt-2 text-gray-200">Compete in mind-bending puzzles and challenges, combining strategy, wit, and creativity to claim victory.</p>
+                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-lg shadow-md hover:bg-blue-800 transition duration-300">View Events</a>
                     </div>
+
                     <!-- Day 3 -->
-                    <div class="bg-gradient-to-b from-pink-600 to-purple-600 p-6 rounded-lg shadow-lg">
-                        <h3 class="text-2xl font-bold">Day 3: Poster and Presentation Making</h3>
-                        <p class="mt-2 text-gray-200">Show your creativity in poster and presentation making.</p>
+                    <div class="bg-gradient-to-b from-pink-600 to-purple-600 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:translate-y-2">
+                        <h3 class="text-2xl font-bold text-white">Day 3: Innovate & Create</h3>
+                        <p class="mt-2 text-gray-200">Unleash your creativity and innovation through poster-making and presentation challenges, showcasing your ideas to the world.</p>
+                        <a href="#" class="mt-4 inline-block px-6 py-2 bg-pink-700 text-white font-semibold rounded-lg shadow-md hover:bg-pink-800 transition duration-300">View Events</a>
                     </div>
+
                 </div>
             </div>
         </section>
+
+
+
 
         <!-- Countdown Timer Section -->
         <section class="py-20 bg-black">
