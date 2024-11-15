@@ -30,7 +30,7 @@
 
     <!-- Registration Form -->
     <main class="flex justify-center items-center mt-20 mb-5">
-        <form action="submit_click_click.php" method="POST" class="bg-gradient-to-br from-purple-800 via-indigo-900 to-black p-10 rounded-xl shadow-xl w-4/5 max-w-lg border border-gray-700">
+        <form action="submit.php" method="POST" class="bg-gradient-to-br from-purple-800 via-indigo-900 to-black p-10 rounded-xl shadow-xl w-4/5 max-w-lg border border-gray-700">
             <input type="hidden" name="event" value="BGMI">
             <h2 class="text-3xl font-semibold text-center mb-6">Join BGMI Now!</h2>
 

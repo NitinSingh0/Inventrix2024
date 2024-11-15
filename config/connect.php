@@ -4,7 +4,7 @@
 define("DB_HOST", "localhost");
 define("DB_PASSWORD", "");
 define("DB_USERNAME", "root");
-define("DB_NAME", "inventrix_db");
+define("DB_NAME", "event_registration");
 
 $conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if (mysqli_connect_errno()) {
