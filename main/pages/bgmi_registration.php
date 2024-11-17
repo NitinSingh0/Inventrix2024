@@ -8,18 +8,20 @@
     <?php include('../../library/library.php') ?>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        function updatePlayerFields() {
-            const numPlayers = document.getElementById('num_players').value;
+        // Function to dynamically create player fields on page load
+        window.onload = function() {
+            const numPlayers = 4; // Total players (leader + 3 more)
             const playerFields = document.getElementById('player_fields');
-            playerFields.innerHTML = ''; // Clear existing fields
+            playerFields.innerHTML = ''; // Clear any existing fields
 
+            // Loop through to add player 2 to 4 fields
             for (let i = 2; i <= numPlayers; i++) {
                 playerFields.innerHTML += `
                     <label class="block mt-4 font-medium">Player ${i} Name</label>
                     <input type="text" name="player${i}_name" required class="w-full p-3 rounded-lg text-black mb-4 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none" placeholder="Enter Player ${i} Name">
                 `;
             }
-        }
+        };
     </script>
 </head>
 
@@ -50,16 +52,15 @@
             <label class="block mb-2 font-medium">Class</label>
             <input type="text" name="class" required class="w-full p-3 rounded-lg text-black mb-6 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none" placeholder="Enter your class eg : Ty-BScIT">
 
+            <!-- Number of Players -->
+            <label class="block mb-2 font-medium">Number of Players</label>
+            <select id="num_players" name="num_players" onchange="updatePlayerFields()" required class="w-full p-3 rounded-lg text-black mb-4 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none">
+                <option value="" disabled selected>Select number of players</option>
+                <option value="4" selected >4</option>
+            </select>
 
-            <label class="block mb-2 font-medium">Player 2 Name</label>
-            <input type="text" name="player2_name" required class="w-full p-3 rounded-lg text-black mb-4 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none">
-
-            <label class="block mb-2 font-medium">Player 3 Name</label>
-            <input type="text" name="player3_name" required class="w-full p-3 rounded-lg text-black mb-4 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none">
-
-            <label class="block mb-2 font-medium">Player 4 Name</label>
-            <input type="text" name="player4_name" required class="w-full p-3 rounded-lg text-black mb-4 border border-gray-500 focus:ring-2 focus:ring-pink-500 outline-none">
-
+            <!-- Dynamic Player Fields -->
+            <div id="player_fields"></div>
 
             <!-- Submit Button -->
             <button type="submit" class="w-full py-3 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 rounded-lg font-bold text-white shadow-md transform hover:scale-105 transition-all">Register Now</button>
